@@ -1,7 +1,7 @@
 import React from "react";
 import bascket from "../assets/header_logo/backet.svg";
 import account from "../assets/header_logo/account.svg";
-import MyLink from "../UI/MyLink";
+
 import { Navbar } from "./Navbar";
 import { MyLogo } from "../UI/MyLogo";
 import { MyIconBtn } from "../UI/MyIconBtn";

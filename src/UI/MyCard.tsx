@@ -1,5 +1,4 @@
 import React, { FC } from "react";
-import { Card } from "../Components/ui/card";
 interface MyCard {
   img: string;
   title: string;

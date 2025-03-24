@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import React, { FC, useEffect, useState } from "react";
+import React, { FC } from "react";
 import { capitalizeFirstLetter } from "../utils/index.js";
 interface linkProp {
   name: string;
@@ -9,12 +9,6 @@ interface linkProp {
 interface MyLink {
   item: linkProp;
   setLinks: React.Dispatch<React.SetStateAction<linkProp[]>>;
-}
-interface ItemProps {
-  id: number;
-  linkText: string;
-  isActive: boolean;
-  number: number;
 }
 
 const MyLink: FC<MyLink> = ({ item, setLinks }) => {

@@ -2,7 +2,7 @@ import React from "react";
 import icon1 from "../assets/CardAbout/1.svg";
 import icon2 from "../assets/CardAbout/2.svg";
 import icon3 from "../assets/CardAbout/3.svg";
-import { title } from "process";
+
 import { CardAbout } from "../UI/CardAbout";
 import { MySectionTitle } from "../UI/MySectionTitle";
 export const About = () => {
