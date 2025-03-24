@@ -1,4 +1,3 @@
-import React from "react";
 import logo from "../assets/header_logo/GREENMIND.svg";
 
 export const MyLogo = () => {

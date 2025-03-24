@@ -1,4 +1,3 @@
-import React from "react";
 import searchIcon from "../assets/searchIcon.svg";
 import BuyDreamImg from "../assets/BuyDream/BuyDreamImg.png";
 import arrow from "../assets/BuyDream/arrow.svg";

@@ -1,4 +1,3 @@
-import React from "react";
 import { MySectionTitle } from "../UI/MySectionTitle";
 import img1 from "../assets/Categories/1.png";
 import img2 from "../assets/Categories/2.png";

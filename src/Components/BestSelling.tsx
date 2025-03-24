@@ -1,4 +1,3 @@
-import React from "react";
 import arrowRight from "../assets/BestSelling/arrowRight.svg";
 import { MyCard } from "../UI/MyCard";
 import img1 from "../assets/BestSelling/1.png";

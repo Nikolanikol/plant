@@ -1,4 +1,3 @@
-import React from "react";
 import bascket from "../assets/header_logo/backet.svg";
 import account from "../assets/header_logo/account.svg";
 
