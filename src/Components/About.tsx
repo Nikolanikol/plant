@@ -23,20 +23,22 @@ export const About = () => {
     },
   ];
   return (
-    <div className="mx-auto mt-[115px] max-w-[1248px]">
-      <MySectionTitle
-        title="About us"
-        subTitle="Order now and appreciate the beauty of nature"
-      />
-      <div className="mt-12 flex flex-col gap-x-1.5 gap-y-1.5 md:flex-row">
-        {arr.map((item, i) => (
-          <CardAbout
-            key={i}
-            title={item.title}
-            img={item.img}
-            desc={item.desc}
-          />
-        ))}
+    <div className="mx-4">
+      <div className="mx-auto mt-[115px] max-w-[1248px]">
+        <MySectionTitle
+          title="About us"
+          subTitle="Order now and appreciate the beauty of nature"
+        />
+        <div className="mt-12 flex flex-col gap-x-1.5 gap-y-1.5 md:flex-row">
+          {arr.map((item, i) => (
+            <CardAbout
+              key={i}
+              title={item.title}
+              img={item.img}
+              desc={item.desc}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
