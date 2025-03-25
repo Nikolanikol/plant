@@ -3,13 +3,13 @@ import { CarouselCard } from "./CarouselCard";
 import clsx from "clsx";
 
 export const MyCarousel = () => {
-  const offsetLeft = -170;
+  // const offsetLeft = -170;
   const arr = [1, 2, 3, 4];
   const [offset, setOffset] = useState(0);
-  const handleClick = (num) => {
+  const handleClick = (num: number) => {
     setOffset((offset) => offset + num);
   };
-  let offsetClass = `mx-[${offset}px]`;
+  // let offsetClass = `mx-[${offset}px]`;
   console.log("rendser");
   return (
     <div className="mx-auto mt-[96px] max-w-[1248px] overflow-hidden">
@@ -24,14 +24,14 @@ export const MyCarousel = () => {
           What customers say about GREEMIND?
         </h2>
         <div className="flex gap-x-1">
-          {arr.map((item) => (
+          {arr.map(() => (
             <span className="h-1.5 w-3 rounded-3xl bg-gray-300"></span>
           ))}
         </div>
       </div>
       <div className="mt-12">
         <div className={clsx(`-ml-[${offset}px] flex w-[2000px] gap-x-4`)}>
-          {arr.map((item) => (
+          {arr.map(() => (
             <CarouselCard />
           ))}
         </div>
