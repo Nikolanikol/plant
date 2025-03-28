@@ -11,7 +11,7 @@ export const Categories = () => {
     { img: img3, title: "Artificial Plants" },
   ];
   return (
-    <div className="mx-auto mt-[165px]">
+    <div className="mx-auto mt-[165px] border-b-4">
       <div className="mx-auto max-w-[1248px]">
         <MySectionTitle
           title="Categories"

@@ -4,7 +4,8 @@ import { BuyDream } from "./Components/BuyDream";
 import { BestSelling } from "./Components/BestSelling";
 import { About } from "./Components/About";
 import { Categories } from "./Components/Categories";
-import { MyCarousel } from "./UI/MyCarousel";
+
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         <BestSelling />
         <About />
         <Categories />
-        <MyCarousel />
+        {/* <MyCarousel /> */}
+        <Footer />
       </div>
     </>
   );
